@@ -1,8 +1,9 @@
 ## 2 Tier Sample application with frontend written in nodejs & and postrges is used as database
-#### This application needs 2 Environment variables configrued on the server where it is running to conenct with the database on default port i.e. `5432`
+#### This application needs 4 Environment variables configrued on the server where it is running to conenct with the database on default port i.e. `5432`
 1. DB_URL # Database URL
 2. DB_USER # Database User
 3. DB_PWD # Database password
+4. DB_NAME # Database Name
 
 #### Database should have a table with the `nodejs_demo` & table with the name `employee` should exists in database
 #### Database script to create the table
