@@ -1,5 +1,5 @@
 const { Client } = require('pg');
-var connectionString = "postgres://"+process.env.DB_USER+":"+process.env.DB_PWD+"@"+process.env.DB_URL+"/"+process.env.DB_NAME;
+var connectionString = "postgres://"+process.env.RDS_USERNAME+":"+process.env.RDS_PASSWORD+"@"+process.env.RDS_HOSTNAME+"/"+process.env.RDS_DB_NAME;
 const client = new Client({
     connectionString: connectionString
 });
