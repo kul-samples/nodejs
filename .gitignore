@@ -106,3 +106,8 @@ dist
 
 # Selenium test Results file
 nosetests.xml
+
+# any archive
+*.zip
+*.tar
+*.tar.gz
